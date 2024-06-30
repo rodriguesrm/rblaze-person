@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{07697E19-9617-4694-8259-D18693BCFAC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross", "Cross", "{0D89C66E-5258-43D0-A746-B2B651A8F87B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RBlaze.Person.CrossCutting", "RBlaze.Person.CrossCutting\RBlaze.Person.CrossCutting.csproj", "{476BD8AA-B49F-4320-8636-84B5ED245C03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RBlaze.Person.Domain", "RBlaze.Person.Domain\RBlaze.Person.Domain.csproj", "{A184AB5F-D0E9-439F-8692-A94EE6818592}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RBlaze.Person.Infrastructure", "RBlaze.Person.Infrastructure\RBlaze.Person.Infrastructure.csproj", "{D16C35F7-DF01-44C6-BD6D-C6E08094FEC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RBlaze.Person.Application", "RBlaze.Person.Application\RBlaze.Person.Application.csproj", "{19C32D02-406D-49D4-A65D-C32B9439C808}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RBlaze.Person", "RBlaze.Person.Api\RBlaze.Person.csproj", "{75AE394B-55F2-434E-B18C-42DEF2BEB711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{476BD8AA-B49F-4320-8636-84B5ED245C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476BD8AA-B49F-4320-8636-84B5ED245C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476BD8AA-B49F-4320-8636-84B5ED245C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476BD8AA-B49F-4320-8636-84B5ED245C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A184AB5F-D0E9-439F-8692-A94EE6818592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A184AB5F-D0E9-439F-8692-A94EE6818592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A184AB5F-D0E9-439F-8692-A94EE6818592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A184AB5F-D0E9-439F-8692-A94EE6818592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16C35F7-DF01-44C6-BD6D-C6E08094FEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16C35F7-DF01-44C6-BD6D-C6E08094FEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16C35F7-DF01-44C6-BD6D-C6E08094FEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16C35F7-DF01-44C6-BD6D-C6E08094FEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C32D02-406D-49D4-A65D-C32B9439C808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C32D02-406D-49D4-A65D-C32B9439C808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C32D02-406D-49D4-A65D-C32B9439C808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C32D02-406D-49D4-A65D-C32B9439C808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AE394B-55F2-434E-B18C-42DEF2BEB711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AE394B-55F2-434E-B18C-42DEF2BEB711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AE394B-55F2-434E-B18C-42DEF2BEB711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AE394B-55F2-434E-B18C-42DEF2BEB711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{476BD8AA-B49F-4320-8636-84B5ED245C03} = {0D89C66E-5258-43D0-A746-B2B651A8F87B}
+		{A184AB5F-D0E9-439F-8692-A94EE6818592} = {07697E19-9617-4694-8259-D18693BCFAC5}
+		{D16C35F7-DF01-44C6-BD6D-C6E08094FEC1} = {07697E19-9617-4694-8259-D18693BCFAC5}
+		{19C32D02-406D-49D4-A65D-C32B9439C808} = {07697E19-9617-4694-8259-D18693BCFAC5}
+		{75AE394B-55F2-434E-B18C-42DEF2BEB711} = {07697E19-9617-4694-8259-D18693BCFAC5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {547E98E5-3677-46A6-8FC0-8DE7D951ECCD}
+	EndGlobalSection
+EndGlobal
