@@ -12,4 +12,11 @@
     <ProjectReference Include="..\RBlaze.Person.Infrastructure\RBlaze.Person.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Services\" />
+    <Folder Include="UseCases\" />
+  </ItemGroup>
+
 </Project>
