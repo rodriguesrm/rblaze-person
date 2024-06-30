@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchTemplate.Api.Controllers
+namespace RBlaze.Person.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

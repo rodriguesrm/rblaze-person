@@ -1,5 +1,5 @@
 
-namespace CleanArchTemplate.Api
+namespace RBlaze.Person.Api
 {
     public class Program
     {
