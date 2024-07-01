@@ -9,7 +9,7 @@ namespace RBlaze.Person.Infrastructure.Databases
 {
 
     ///<inheritdoc/>
-    public class PersonDb(DbContextOptions options) : DbContext(options)
+    internal class PersonDbContext(DbContextOptions options) : DbContext(options)
     {
 
         #region Local objects/variables

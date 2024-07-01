@@ -4,7 +4,7 @@
     /// <summary>
     /// Soft deletion interface
     /// </summary>
-    public interface ISoftDeletion
+    internal interface ISoftDeletion
     {
 
         /// <summary>

@@ -1,4 +1,6 @@
 
+using RBlaze.Person.Api.Extensions;
+
 namespace RBlaze.Person.Api
 {
     public class Program
@@ -13,6 +15,8 @@ namespace RBlaze.Person.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddPersonServices(builder.Configuration, "PersonDb", true);
 
             var app = builder.Build();
 

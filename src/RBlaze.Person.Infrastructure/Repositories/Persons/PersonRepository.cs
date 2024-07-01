@@ -1,4 +1,6 @@
-﻿using RBlaze.Person.Domain.Repositories.Persons;
+﻿using Microsoft.EntityFrameworkCore;
+using RBlaze.Person.Domain.Repositories.Persons;
+using RBlaze.Person.Infrastructure.Databases;
 using DomainPerson = RBlaze.Person.Domain.Entities.Person;
 
 namespace RBlaze.Person.Infrastructure.Repositories.Persons
@@ -7,16 +9,30 @@ namespace RBlaze.Person.Infrastructure.Repositories.Persons
     /// <summary>
     /// Repositório de persistência de consulta de pessoas
     /// </summary>
-    public class PersonRepository : 
+    /// <remarks>
+    /// Cria uma nova instância do repositório
+    /// </remarks>
+    /// <param name="ctx">Instância do contexto de banco de dados</param>
+    internal class PersonRepository(PersonDbContext ctx) : 
         IAddUpdPersonRepository, 
         IGetPersonRepository,
         IDeletePersonRepository
     {
 
+        #region Local objects/variables
+
+        private readonly PersonDbContext _ctx = ctx;
+        //private readonly DbSet<PersonTable> _dbSet = ctx.Set<PersonTable>();
+
+        #endregion
+
+        #region Public methods
+
         ///<inheritdoc/>
         public async Task<DomainPerson> AddOrUpdateAsync(uint key, DomainPerson entity)
         {
             //TODO: NotImplementedException
+            
             await Task.CompletedTask;
             throw new NotImplementedException();
         }
@@ -40,6 +56,8 @@ namespace RBlaze.Person.Infrastructure.Repositories.Persons
             //TODO: NotImplementedException
             throw new NotImplementedException();
         }
+
+        #endregion
 
     }
 }

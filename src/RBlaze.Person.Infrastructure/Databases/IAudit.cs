@@ -4,7 +4,7 @@
     /// <summary>
     /// Log audit interface
     /// </summary>
-    public interface IAudit
+    internal interface IAudit
     {
 
         #region Properties
