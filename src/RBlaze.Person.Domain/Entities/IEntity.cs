@@ -12,8 +12,7 @@
         /// <summary>
         /// Obter o valor da chave primária de uma entidade
         /// </summary>
-        /// <param name="entity">Instância de <see cref="TKey"/></param>
-        TKey GetKeyValue(IDomainEntity<TKey> entity);
+        TKey GetKeyValue();
 
     }
 }

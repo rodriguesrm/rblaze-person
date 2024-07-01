@@ -4,11 +4,11 @@
     /// <summary>
     /// Entidade de pessoa
     /// </summary>
-    public sealed class Person : IDomainEntity<int>
+    public sealed class Person : IDomainEntity<uint>
     {
-        public int GetKeyValue(IDomainEntity<int> entity)
-        {
-            throw new NotImplementedException();
-        }
+
+        public uint Id { get; set; }
+
+        public uint GetKeyValue() => Id;
     }
 }

@@ -4,7 +4,7 @@ namespace RBlaze.Person.Domain.Repositories.Persons
 {
 
     ///<inheritdoc/>
-    public interface IDeletePersonRepository : IDeleteRepository<DomainPerson, int>
+    public interface IDeletePersonRepository : IDeleteRepository<DomainPerson, uint>
     {
     }
 }

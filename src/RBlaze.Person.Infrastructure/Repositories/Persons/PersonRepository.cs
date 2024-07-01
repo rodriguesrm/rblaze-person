@@ -14,7 +14,7 @@ namespace RBlaze.Person.Infrastructure.Repositories.Persons
     {
 
         ///<inheritdoc/>
-        public async Task<DomainPerson> AddOrUpdateAsync(int key, DomainPerson entity)
+        public async Task<DomainPerson> AddOrUpdateAsync(uint key, DomainPerson entity)
         {
             //TODO: NotImplementedException
             await Task.CompletedTask;
@@ -28,14 +28,14 @@ namespace RBlaze.Person.Infrastructure.Repositories.Persons
             throw new NotImplementedException();
         }
 
-        public async Task<DomainPerson> GetByKey(int key)
+        public async Task<DomainPerson> GetByKey(uint key)
         {
             //TODO: NotImplementedException
             await Task.CompletedTask;
             throw new NotImplementedException();
         }
 
-        public void Delete(int key, DomainPerson entity)
+        public void Delete(uint key, DomainPerson entity)
         {
             //TODO: NotImplementedException
             throw new NotImplementedException();

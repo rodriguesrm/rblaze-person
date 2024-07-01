@@ -9,7 +9,6 @@
   <ItemGroup>
     <ProjectReference Include="..\RBlaze.Person.CrossCutting\RBlaze.Person.CrossCutting.csproj" />
     <ProjectReference Include="..\RBlaze.Person.Domain\RBlaze.Person.Domain.csproj" />
-    <ProjectReference Include="..\RBlaze.Person.Infrastructure\RBlaze.Person.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

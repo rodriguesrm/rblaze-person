@@ -4,7 +4,7 @@ namespace RBlaze.Person.Domain.Repositories.Persons
 {
 
     ///<inheritdoc/>
-    public interface IAddUpdPersonRepository : IAddUpdRepository<DomainPerson, int>
+    public interface IAddUpdPersonRepository : IAddUpdRepository<DomainPerson, uint>
     {
     }
 }
